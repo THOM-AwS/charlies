@@ -86,7 +86,7 @@
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="" class="image fit"><img src="images/COS_Charlie’s Community Garden_MM-1.jpg" alt="" /></a>
+										<a href="" class="image fit"><img src="images/COS_Charlie’s Community Garden_MM-1.jpg" alt=""  /></a>
 										<header>
 											<h3>Ipsum Feugiat</h3>
 										</header>
@@ -492,5 +492,12 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+		<script>
+			function onClick(element) {
+				document.getElementById("img01").src = element.src;
+				document.getElementById("modal01").style.display = "block";
+			}
+		</script>
+		
 	</body>
 </html>
